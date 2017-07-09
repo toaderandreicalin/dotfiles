@@ -1,0 +1,56 @@
+URxvt.font: xft:Terminus:pixelsize=12
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.scrollBar: false
+
+! special
+*.foreground:   #b06b7a
+*.background:   #fdffe6
+*.cursorColor:  #b06b7a
+
+! black
+*.color0:       #73514f
+*.color8:       #837aae
+
+! red
+*.color1:       #7d626b
+*.color9:       #f55c7f
+
+! green
+*.color2:       #90524f
+*.color10:      #bd665d
+
+! yellow
+*.color3:       #b6504e
+*.color11:      #9a7077
+
+! blue
+*.color4:       #9a6968
+*.color12:      #e66f68
+
+! magenta
+*.color5:       #846c80
+*.color13:      #bb7e7e
+
+! cyan
+*.color6:       #e64e4f
+*.color14:      #f08790
+
+! white
+*.color7:       #9c7687
+*.color15:      #cb8d9a
+
+
+rofi.modi:                           ssh,window,drun,run
+rofi.sidebar-mode:                   true
+rofi.terminal:                       termite
+rofi.ssh-client:                     ssh
+rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
+rofi.opacity:                        100
+rofi.width:                          50
+rofi.lines:                          8
+rofi.columns:                        1
+rofi.font: Terminus 12
+rofi.fg:			     #b06b7a
+rofi.bg:			     #fdffe6
